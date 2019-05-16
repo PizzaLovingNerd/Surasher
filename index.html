@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Surasher</title>
+    <meta name="application-name" content="Surasher" />
+    <meta name="msapplication-TileColor" content=" #FE4646" />
+    
+    <!-- Logos for all four tile sizes -->
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+      
+    <!-- Notification URL -->
+    <meta name="msapplication-notification" content="frequency=30; polling-uri=1.xml; polling-uri2=2.xml; polling-uri3=3.xml; polling-uri4=4.xml; polling-uri5=5.xml" />
+</header>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: Black;
+    }
+
+    p {
+        color: White;
+        font-size: 500%
+    }
+
+    h1 {
+        color: White;
+        font-size: 500%
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+        .column img {
+            margin-top: 8px;
+            align: center;
+            vertical-align: middle;
+        }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 800%;
+            flex: 800%;
+            max-width: 800%;
+        }
+    }
+</style>
+
+<body>
+    
+    <!-- Header -->
+    <div class="header">
+        <h1>Surasher</h1>
+        <p>Hub for alot of merch websites.</p>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <a href="https://www.thenorthface.com/">
+                <img src="NorthFace.png" style="width:200%">
+            </a>
+            <a href="https://www.undefeated.com/">
+                <img src="UnDefeated.png" style="width:200%">
+            </a>
+            <a href="https://www.supremenewyork.com/">
+                <img src="Supreme.png" style="width:200%">
+            </a>
+            <a href="https://www.thinkgeek.com/">
+                <img src="Thinkgeek.jpg" style="width:200%">
+            </a>
+            <a href="https://fanjoy.co">
+                <img src="FanJoy.jpg" style="width:200%">
+            </a>
+            <a href="https://www.diamondsupplyco.com/">
+                <img src="Diamond.jpg" style="width:200%">
+            </a>
+            <a href="https://www.underarmour.com/en-us/">
+                <img src="UnderArmour.jpg" style="width:200%">
+            </a>
+        </div>
+        <div class="column">
+        </div>
+        <div class="column">
+            <a href="https://www.bbcicecream.com/">
+                <img src="BBCIceCream.jpg" style="width:200%">
+            </a>
+            <a href="https://us.puma.com">
+                <img src="Puma.jpg" style="width:200%">
+            </a>
+            <a href="https://shop-usa.palaceskateboards.com/">
+                <img src="Palace.jpg" style="width:200%">
+            </a>
+            <a href="https://global.mastermindtokyo.com/">
+                <img src="Mastermind.png" style="width:200%">
+            </a>
+            <a href="https://www.bapeonline.com/">
+                <img src="bape.jpeg" style="width:200%">
+            </a>
+            <a href="https://www.nike.com/">
+                <img src="nike.jpeg" style="width:200%">
+            </a>
+        </div>
+    </div>
+    <!-- comment so that gitlab with redo it's pipeline XD -->
+</body>
+</html>
